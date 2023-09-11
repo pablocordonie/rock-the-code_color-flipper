@@ -1,0 +1,66 @@
+:root {
+  background-color: #fff;
+  font-family: 'DM Mono', monospace;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#app {
+  margin: 0;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 1.75rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+h1,
+h2 {
+  color: #fa14e7;
+}
+
+#app {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  justify-content: center;
+  padding: 8rem;
+}
+
+.block {
+  background-color: #110032;
+  border-radius: 0.5rem;
+  color: rgba(255, 255, 255, 0.87);
+  padding: 0 1rem 1rem 1rem;
+  text-align: center;
+  width: 100%;
+}
+
+#color-name {
+  color: white;
+}
+
+#color-picker {
+  cursor: pointer;
+  font-size: 1rem;
+  min-width: 12.5rem;
+  padding: 0.5rem;
+}
